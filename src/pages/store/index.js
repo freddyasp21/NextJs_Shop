@@ -1,11 +1,13 @@
-import Link from "next/link";
+import Layout from "@/components/layout";
+import style from '../../styles/store.module.css'
 
 export default function Index() {
   return (
-    <div>
-      <h1>Store</h1>
-
-      <Link href="/">Ir a Home</Link>
-    </div>
+    <>
+      <Layout title="Store"/>
+      <div className={style.container}>
+        Store
+      </div>
+    </>
   );
 }

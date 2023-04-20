@@ -14,7 +14,9 @@ export default function Layout({ children, title }) {
 
       <Menu/>
 
-      <div className={style.container}>Children</div>
+      <div className={style.container}>
+        
+      </div>
     </div>
   );
 }
