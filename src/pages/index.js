@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Link href="/faq">
-          <a>FAQ</a>
+          Ir a Faq
         </Link>
       </main>
     </>
