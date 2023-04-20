@@ -1,10 +1,9 @@
 import Link from "next/link";
 
-export default function FAQ() {
+export default function Index() {
   return (
     <div>
-      <h1>FAQ</h1>
-      <p>Bienvenido a FAQ</p>
+      <h1>Store</h1>
 
       <Link href="/">Ir a Home</Link>
     </div>
