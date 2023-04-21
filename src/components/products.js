@@ -1,8 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
+import style from '../styles/product.module.css'
 
 export default function Product({ item, showAs }) {
-    
+
   if (showAs === "Page") {
     return <div>Page</div>;
   }
@@ -12,14 +13,14 @@ export default function Product({ item, showAs }) {
   }
 
   return (
-    <div>
+    <div className={style.item}>
       <div>
         <Link href={`/store/url-a-mi-componente`}>
           <Image
             src={item.image}
             alt={item.description}
-            width="500"
-            height="500"
+            width="200"
+            height="200"
           />
         </Link>
       </div>
